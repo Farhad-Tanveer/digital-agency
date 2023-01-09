@@ -76,19 +76,17 @@
 .service-container {
     width: 100%;
     height: 100vh;
-    padding: 20px;
     background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     color: white;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .service-left-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 50px;
+    width: 50%;
 }
 
 .service-btn {
@@ -147,5 +145,31 @@
 }
 
 .bottom-right {
+    display: flex;
+}
+
+.service {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.service-logo {
+    width: 50%;
+    padding-bottom: 10px;
+
+}
+
+.service-up {
+    display: flex;
+}
+
+.service-down {
     display: flex;
 }
